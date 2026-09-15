@@ -8,9 +8,41 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<form method="GET" id="form">
+        
+        
+        <h1>Feedback Form</h1>
+        <div>
+            <label for="name">Name</label>
+            <input type="text" id="name" minlength="3" maxlength="50" required>
+        </div>
+        <div>
+               <label for="portfolio">Portfolio</label>
+            <input type="url" required id="portfolio">
+        </div>
+        
+        <div>
+             <label for="favColor">Favourite Color</label>
+        <input type="color" id="favColor">
+
+        </div>
+        
+     <div>
+        <label for="">Likeness</label>
+        <input type="range" min="1" max="100" id="likeness">
+
+
+     </div>
+     <button>submit</button>
+       
+        
+    </form>
+
+	
     <script type="text/javascript" src="./script.js">
 </script>
 
 </body>
+	
 
 </html>
